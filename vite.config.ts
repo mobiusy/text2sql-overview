@@ -4,6 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/text2sql-overview/',
   server: {
     host: '0.0.0.0',
     port: 5173
