@@ -10,7 +10,7 @@ import Presenter from "@/pages/Presenter";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/text2sql-overview">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
