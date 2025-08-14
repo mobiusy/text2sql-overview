@@ -7,7 +7,12 @@ import {
   Clock,
   Building2,
   AlertTriangle,
-  CheckCircle
+  CheckCircle,
+  Code,
+  BookOpen,
+  TrendingUp,
+  Building,
+  FileText
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -19,11 +24,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navigationItems = [
     { path: '/', label: '首页', icon: Home },
-    { path: '/principles', label: '技术原理', icon: Brain },
-    { path: '/evolution', label: '发展历程', icon: Clock },
-    { path: '/applications', label: '企业应用', icon: Building2 },
+    { path: '/principles', label: '技术原理', icon: BookOpen },
+    { path: '/evolution', label: '发展历程', icon: TrendingUp },
+    { path: '/applications', label: '企业应用', icon: Building },
+    { path: '/case-demo', label: '案例演示', icon: Code },
     { path: '/challenges', label: '技术挑战', icon: AlertTriangle },
-    { path: '/summary', label: '总结', icon: CheckCircle }
+    { path: '/summary', label: '总结', icon: FileText },
   ];
 
   return (
