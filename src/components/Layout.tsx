@@ -12,7 +12,8 @@ import {
   BookOpen,
   TrendingUp,
   Building,
-  FileText
+  FileText,
+  Github
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -62,6 +63,19 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               );
             })}
           </nav>
+        </div>
+        
+        {/* GitHub 仓库链接 */}
+        <div className="absolute bottom-32 left-6 right-6">
+          <a
+            href="https://github.com/mobiusy/text2sql-overview"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center space-x-2 w-full px-4 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-200"
+          >
+            <Github size={20} />
+            <span className="font-medium">View on GitHub</span>
+          </a>
         </div>
         
         {/* 进度指示器 */}
