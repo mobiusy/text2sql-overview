@@ -113,6 +113,22 @@ const CaseDemo = () => {
                   </p>
                 </div>
               </div>
+              
+              <div>
+                <h4 className="text-lg font-medium text-gray-700 mb-3">示例问题</h4>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                      订单数量
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                      当前都有哪些产品
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -149,6 +165,35 @@ const CaseDemo = () => {
                 </div>
               </div>
 
+              {/* 示例问题 */}
+              <div>
+                <h4 className="text-lg font-medium text-gray-700 mb-3">示例问题</h4>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <p className="text-gray-600 mb-4">您可以尝试以下示例问题来体验 XiYanSQL-QwenCoder 的功能：</p>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="text-gray-700">版本号数量前10的package，以及他们的名称</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="text-gray-700">最近一年用户的注册趋势</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="text-gray-700">发布案例最多的10个用户，以及他们的姓名</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="text-gray-700">分析用户喜欢在哪个时间段发布案例</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="inline-block w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span className="text-gray-700">分析用户喜欢在什么时间段上传package</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
              </div>
           </div>
